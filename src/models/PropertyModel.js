@@ -10,6 +10,6 @@ const propertySchema = new Schema({
     img: { type: String, required: true },
   });
 
-  const property = mongoose.model("property", propertySchema); 
-  
-  module.exports = property
+  const Property = mongoose.model("property", propertySchema); 
+
+  module.exports = Property;
